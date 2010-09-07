@@ -1,4 +1,8 @@
-My "dreamapp"! Maven archetype that creates a bundled executable java jetty webapplication. Run the application in four ways, as a maven jetty:run, as unit test in your IDE, as executable war or inside a appserver as a war.
+My "dreamapp"! Maven archetype that creates a bundled executable java jetty webapplication.
+This version, dreamapp-shared-jms-db bundles an activeMq jms and camel and is a demonstration on
+sharing one spring jdbc transaction between jms and local database - no XA!
+
+Run the application in four ways, as a maven jetty:run, as unit test in your IDE, as executable war or inside a appserver as a war.
 
 Here is how to create your "dreamapp":
 
