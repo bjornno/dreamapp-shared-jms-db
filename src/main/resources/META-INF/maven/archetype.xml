@@ -1,0 +1,23 @@
+<archetype>
+    <id>dreamappharchetype</id>
+    <allowPartial>true</allowPartial>
+    <sources>
+        <source>src/main/java/Start.java</source>
+        <source>src/main/java/integration/Route.java</source>
+        <source>src/main/java/integration/JmsTransactionAwareDataSourceProxy.java</source>
+    </sources>
+    <resources>
+        <resource>src/main/resources/META-INF/spring/applicationContext.xml</resource>
+        <resource>src/main/resources/application.properties</resource>
+        <resource>src/main/webapp/WEB-INF/web.xml</resource>
+        <resource>src/main/webapp/index.html</resource>
+    </resources>
+   <testSources>
+       <source>src/test/java/ApplicationLauncher.java</source>
+       <source>src/test/java/integration/RouteTest.java</source>
+   </testSources>
+   <testResources>
+       <resource>src/test/resources/jetty-env.xml</resource>
+       <resource>src/test/resources/testContext.xml</resource>
+   </testResources>
+</archetype>
