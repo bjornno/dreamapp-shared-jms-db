@@ -6,7 +6,7 @@ Run the application in four ways, as a maven jetty:run, as unit test in your IDE
 
 Here is how to create your "dreamapp":
 
-mvn archetype:create -DarchetypeGroupId=com.github.bjornno -DarchetypeArtifactId=dreamapp -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=<groupId> -DartifactId=<artifactId> -DremoteRepositories=http://oss.sonatype.org/content/groups/public
+mvn archetype:create -DarchetypeGroupId=com.github.bjornno -DarchetypeArtifactId=dreamapp-shared-jms-db -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=<groupId> -DartifactId=<artifactId> -DremoteRepositories=http://oss.sonatype.org/content/groups/public
 
 mvn clean install
 java -jar target/<artifactId>.war
